@@ -1,0 +1,40 @@
+.meger-outercontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  /* border: solid red 1px; */
+  width: 60vw;
+  height: 60vh;
+  margin-left: 20%;
+  margin-top: 12%;
+  background: lightgray
+}
+
+.imageContainer {
+  display: flex;
+  border: solid blue 1px;
+  width: 40%;
+  height: 80%;
+  margin-bottom: 10%;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 5px 15px #00000029;
+}
+
+.imagecontent {
+  width: 245px;
+  height: 245px;
+  top: 237px;
+  left: 400px;
+  padding-left: 15px;
+}
+
+.pages {
+  display: flex;
+  /* border: solid rgb(229, 255, 0) 1px; */
+  width: 70%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 23%;
+}

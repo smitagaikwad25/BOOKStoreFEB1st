@@ -1,0 +1,57 @@
+.signInOuterContainer {
+  width: 25vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  border: solid black 1px;
+  margin: auto;
+  margin-top: 15%;
+  margin-left: 45%;
+  justify-content: space-around;
+ 
+}
+
+.text-singin {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  /* border: solid red 1px; */
+  margin: auto;
+  width: auto;
+  justify-content: space-around;
+}
+.email_text {
+  padding-right: 2px;
+  padding-left: 2px;
+  /* border: solid rgb(0, 47, 255) 1px; */
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: solid rgb(255, 217, 0) 1px; */
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 25%;
+}
+
+.facebook-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: solid rgb(255, 0, 157) 1px; */
+  height: 15%;
+  margin-bottom: 2%;
+  
+}
+
+.facebook{
+  color: rgba(160, 48, 55, 1);
+}
